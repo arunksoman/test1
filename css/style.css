@@ -27,5 +27,6 @@ span { z-index:5; position: absolute;}
 	background-size: 768px 768px;
      background-repeat: no-repeat;
      background-position: center;
-     margin: 100px 100px 100px 100px;
+     margin-left: auto;
+	margin-right: auto
  }
