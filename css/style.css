@@ -24,6 +24,7 @@ span { z-index:5; position: absolute;}
      left: 50%;
      top: 50%;
      background-image: url(https://lh6.googleusercontent.com/proxy/4rCjrb_rPOBSgJBKVZcHX16YHH-8Ebr7Wa_QSQgivYlSsMsyg3KTKa8MHrEWc7AtQypyAuUg-eCoZLzHkh-UfgXZrH5t3rsB5IDXWbzR=w400-h291-nc);
+	background-size: 500px 500px;
      background-repeat: no-repeat;
      background-position: center;
      margin: -100px 0 0 -100px;
