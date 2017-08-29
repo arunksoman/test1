@@ -18,14 +18,8 @@ span { z-index:5; position: absolute;}
     height: 100%;
  }
 #status  {
-     width: 768px;
-     height: 768px;
-     position: absolute;
-     left: 50%;
-     top: 50%;
      background-image: url(https://lh6.googleusercontent.com/proxy/4rCjrb_rPOBSgJBKVZcHX16YHH-8Ebr7Wa_QSQgivYlSsMsyg3KTKa8MHrEWc7AtQypyAuUg-eCoZLzHkh-UfgXZrH5t3rsB5IDXWbzR=w400-h291-nc);
-	background-size: 768px 768px;
+
      background-repeat: no-repeat;
      background-position: center center;
-     margin: -100px 0 0 -100px;
  }
