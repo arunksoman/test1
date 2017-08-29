@@ -18,8 +18,8 @@ span { z-index:5; position: absolute;}
     height: 100%;
  }
 #status  {
-     width: 700px;
-     height: 700px;
+     width: 768px;
+     height: 768px;
      position: absolute;
      left: 50%;
      top: 50%;
