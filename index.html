@@ -7,14 +7,15 @@
 <link rel="stylesheet" href="css/style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>
-// makes sure the whole site is loaded
-	jQuery(window).load(function() {
-        // will first fade out the loading animation
-    jQuery("#status").fadeOut();
-        // will fade out the whole DIV that covers the website.
-    jQuery("#preloader").fadeOut("slow", function () {
-	    });
-},2000);
+	   jQuery(document).ready(function ($) {
+    $(window).load(function () {
+        setTimeout(function(){
+		$("#status").fadeOut();
+            $('#preloader').fadeOut('slow', function () {
+            });
+        },2000); // set the time here
+    });  
+});
 </script>
 </head>
   <body>
