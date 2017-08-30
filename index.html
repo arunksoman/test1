@@ -12,8 +12,14 @@
         // will first fade out the loading animation
     jQuery("#status").fadeOut();
         // will fade out the whole DIV that covers the website.
-    jQuery("#preloader").delay(1000).fadeOut("slow");
-})
+    jQuery(document).ready(function ($) {
+    $(window).load(function () {
+        setTimeout(function(){
+            $('#preloader').fadeOut('slow', function () {
+            });
+        },2000); // set the time here
+    });  
+});
 
 </script>
 </head>
