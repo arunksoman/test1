@@ -15,6 +15,7 @@ span { z-index:5; position: absolute;}
      bottom: 0;
      background-image: url(../IMG-20170901-WA0000.jpg);
 	background-repeat: no-repeat;
+	background-size: 768px 768px;
      z-index: 99;
     height: 100%;
  }
